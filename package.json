@@ -1,6 +1,6 @@
 {
   "name": "@deepseek-harness-tui/dsh-tui",
-  "version": "0.20.0",
+  "version": "0.20.0-rc3.20261114.1",
   "description": "Interactive terminal interface for DeepSeek Harness agents, sessions and tools.",
   "keywords": [
     "dsh",
@@ -23,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ccch1mneyyy/dsh-TUI.git"
+    "url": "https://github.com/DSH-Extensions-list/dsh-tui.git"
   },
   "bugs": {
-    "url": "https://github.com/ccch1mneyyy/dsh-TUI/issues"
+    "url": "https://github.com/DSH-Extensions-list/dsh-tui/issues"
   },
-  "homepage": "https://github.com/ccch1mneyyy/dsh-TUI#readme",
+  "homepage": "https://github.com/DSH-Extensions-list/dsh-tui#readme",
   "packageManager": "pnpm@11.21.0",
   "publishConfig": {
     "access": "public"
@@ -129,7 +129,8 @@
     "guide"
   ],
   "engines": {
-    "node": "^22.19 || >=24"
+    "node": "^22.19 || >=24",
+    "dsh": "0.2.2-rc.3"
   },
   "scripts": {
     "clean": "node scripts/clean-lib.mjs",

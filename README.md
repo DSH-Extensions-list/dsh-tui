@@ -1,3 +1,7 @@
+# DSH-Extensions-list RC3 edition
+
+This fork preserves upstream dsh-TUI 0.20.0 at commit `8958f08e3ba09a3db37d35c490d9589c114e7136` and carries the installed `0.20.0-rc3.20261114.1` compatibility fixes for DeepSeek Harness `0.2.2-rc.3`. Upstream ownership, package name and MIT license are retained. See [RC3-COMPATIBILITY.md](RC3-COMPATIBILITY.md) for changes, checks and scope.
+
 <p align="center">
   <img src="docs/assets/readme/logo-en.svg" alt="dsh-TUI animated whale logo" width="560">
 </p>
